@@ -46,8 +46,8 @@ sal_pop = range(sal_dat.shape[0])
 training_options = []
 
 for i in range(k):
-    none_indices = random.sample(sal_pop, 8) # was 8
-    sal_indices = random.sample(sal_pop, 8)
+    none_indices = random.sample(sal_pop, 7) 
+    sal_indices = random.sample(sal_pop, 7)
     
     if (none_indices not in [training_options[k][0] for k in range(len(training_options))]) and (sal_indices not in [training_options[k][1] for k in range(len(training_options))]):
         training_options.append((none_indices, sal_indices))

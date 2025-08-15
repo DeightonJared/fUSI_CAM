@@ -1,1 +1,2 @@
-Code associated with the paper, ["Monitoring Drug-Induced Brain Activity Changes with Functional Ultrasound Imaging and Convolutional Neural Networks"](https://arxiv.org/abs/2410.09523)
+Code associated with the paper, "Functional Ultrasound Imaging Combined with Machine Learning for Whole-Brain Analysis of Drug-Induced Hemodynamic Changes
+Imaging Neuroscience"

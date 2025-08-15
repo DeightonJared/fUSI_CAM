@@ -75,7 +75,6 @@ for train_mk_indices, train_sal_indices in training_options:
     
     train_dataloader = DataLoader(train_dataset, batch_size = 32, shuffle=True)
     
-    # Model training and evaluation remains the same...
     #model = MyCNN_flexible()
     model = MyCNN_flexible(num_filters = 64, num_conv_layers=4, activation='ELU')
     optimizer = torch.optim.Adam(model.parameters(), lr = 1e-2)#1e-3)
